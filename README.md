@@ -21,15 +21,15 @@ This project analyzes Walmart's sales data to identify trends, seasonality, and 
 ## Project Workflow
 
 1. **Data Cleaning (Python)**
-   - The raw dataset (`Walmart.xls`) was cleaned using `pandas`.
-   - The processed data was stored as `walmart_clean_data.xls`.
+   - The raw dataset (`Walmart_Data.xls`) was cleaned using `pandas`.
+   - The processed data was stored as `Cleaned_walmart_data.xls`.
 
 2. **Data Analysis (MySQL)**
    - Data was imported into MySQL for structured queries.
-   - SQL queries (`Queries.sql`) were used for aggregation and segmentation.
+   - SQL queries (`SQL Queries.sql`) were used for aggregation and segmentation.
 
 3. **Visualization (Power BI)**
-   - Interactive dashboards were created using `Walmart.pbix`.
+   - Interactive dashboards were created using `Walmart_Analysis.pbix`.
    - PNG files (`Dashboard1.png` and `Dashboard2.png`) show static representations.
 
 ---
@@ -39,7 +39,7 @@ This project analyzes Walmart's sales data to identify trends, seasonality, and 
 - **Python**: Data processing (`pandas`)
 - **MySQL**: Querying and filtering sales data
 - **Power BI**: Creating interactive dashboards
-- **Jupyter Notebook**: Analysis documentation (`project.ipynb`)
+- **Jupyter Notebook**: Analysis documentation (`Python file.ipynb`)
 
 ---
 
@@ -48,16 +48,16 @@ This project analyzes Walmart's sales data to identify trends, seasonality, and 
 ```
 ├── Dashboard1.png           # First dashboard (Power BI)
 ├── Dashboard2.png           # Second dashboard (Power BI)
-├── Walmart.pbix             # Power BI dashboard file
+├── Walmart_Analysis.pbix    # Power BI dashboard file
 ├── icon1.jpeg               # Supporting images
 ├── icon2.jpeg
 ├── icon3.jpg
 ├── icon4.jpeg
-├── project.ipynb            # Jupyter Notebook for data cleaning
-├── Queries.sql              # SQL queries for analysis
+├── Python file.ipynb        # Jupyter Notebook for data cleaning
+├── SQL Queries.sql          # SQL queries for analysis
 ├── requirements.txt         # Dependencies
-├── Walmart.xls              # Raw sales dataset
-├── walmart_clean_data.xls   # Cleaned dataset
+├── Walmart_Data.xls         # Raw sales dataset
+├── Cleaned_walmart_data.xls # Cleaned dataset
 ├── walmart-10k-sales-datasets.zip # Original dataset archive
 ```
 
@@ -88,12 +88,12 @@ This project analyzes Walmart's sales data to identify trends, seasonality, and 
    pip install -r requirements.txt
    ```
 3. **Run Jupyter Notebook**
-   - Open `project.ipynb` and execute all cells.
+   - Open `Python file.ipynb` and execute all cells.
 4. **MySQL Setup**
-   - Import `walmart_clean_data.xls` into MySQL.
-   - Run SQL queries from `Queries.sql`.
+   - Import `Cleaned_walmart_data.xls` into MySQL.
+   - Run SQL queries from `SQL Queries.sql`.
 5. **Power BI Dashboard**
-   - Open `Walmart.pbix` in Power BI.
+   - Open `Walmart_Analysis.pbix` in Power BI.
    - Alternatively, view `Dashboard1.png` and `Dashboard2.png`.
 
 ---

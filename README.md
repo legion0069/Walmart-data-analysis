@@ -81,7 +81,7 @@ This project analyzes Walmart's sales data to identify trends, seasonality, and 
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/your-repo-url
+   git clone https://github.com/legion0069/Walmart-data-analysis.git
    ```
 2. **Install Dependencies**
    ```bash
